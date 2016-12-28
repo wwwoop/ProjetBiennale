@@ -1,11 +1,24 @@
 package com.woop.TestHello;
 
 /**
- * Hello world!
+ * Class définissant le contenu
  *
  */
 public class Greeter {
-    public String sayHello() {
-        return "Hello world!";
+
+    private final long id;
+    private final String content;
+
+    public Greeter(long id, String content) {
+        this.id = id;
+        this.content = content;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getContent() {
+        return content;
     }
 }

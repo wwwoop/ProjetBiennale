@@ -1,0 +1,26 @@
+INDEX VERSION 1.127+/Users/Coco/Documents/Programming/Workweb/Projet Biennale/ProjetBiennale/.metadata/.plugins/org.eclipse.jdt.core
+3612541667.index
+660273513.index
+1969767409.index
+4140319841.index
+3735975305.index
+1647637690.index
+1271342938.index
+404199878.index
+3196222862.index
+4238018145.index
+521061135.index
+3767115374.index
+1315525803.index
+1753319412.index
+4036230714.index
+3670248649.index
+2634225966.index
+2363563081.index
+1170686471.index
+1462376079.index
+2527688048.index
+506999199.index
+2867016645.index
+3131291862.index
+1067258947.index
