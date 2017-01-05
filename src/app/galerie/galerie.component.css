@@ -1,0 +1,40 @@
+.Galerie {
+	align-content: center;
+	position: absolute;
+	transition: 1s;
+	float: right;
+}
+
+.description {
+	background-color: black;
+	box-sizing: border-box;
+	color: white;
+	padding: 5px;
+	width: 400px;
+	position: relative;
+	float: right;
+	clear: both;
+	transition: 1s;
+}
+
+.titre {
+	background-color: black;
+	box-sizing: border-box;
+	color: white;
+	padding: 5px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	position: relative;
+	margin: 0px;
+	transition: 1s;
+}
+
+img {
+	position: absolute;
+	transition: 1s;
+	float: right;
+	border: 1px solid black;
+	background-color: white;
+}
+

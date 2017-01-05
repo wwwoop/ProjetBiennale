@@ -1,0 +1,14 @@
+<div class="Galerie" [style.margin-left]="x" [style.margin-top]="y">
+	<div *ngFor="let image of this.imgTab; let i=index">
+		<img [src]="image.url" alt="Frite" width="400px" height="283px" [style.margin-left]="posLeft(i)" [style.margin-top]="posTop(i)" [style.z-index]="getZIndex()" (click)="changePos()" (mouseover)="afficherTexte($event)" (mouseleave)="masquerTexte()" (click)="afficherTexte($event)">
+	</div>
+
+	<p class="titre" [style.opacity]="descVisible" style.left="10px" style.top="-10px" style.z-index="2">
+		{{ descTitle }}
+	</p>
+
+	<p class="description" [style.opacity]="descVisible" [style.left]="descX" [style.top]="descY" style.z-index="2" (mouseover)="afficherTexte($event)" (mouseleave)="masquerTexte()">
+		{{ descValue }}
+	</p>
+</div>
+

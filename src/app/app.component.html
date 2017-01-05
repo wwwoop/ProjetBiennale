@@ -1,0 +1,16 @@
+<h1>
+  {{title}}
+</h1>
+
+
+<div *ngIf="nbGal == 0">
+	<p>Chargement de la Galerie en cours...</p>
+</div>
+
+<div *ngIf="nbGal > 0">
+	<div *ngFor="let galerie of x; let i=index">
+		<obj-galerie [initX]="x[i]" [initY]="y[i]" [numGalerie]="i">Ouverture de la galerie en cours...</obj-galerie>
+	</div>
+
+	<p>Le nombre de galeries est {{ nbGal }} </p>
+</div>
