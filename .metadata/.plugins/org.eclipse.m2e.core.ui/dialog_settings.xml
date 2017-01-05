@@ -56,14 +56,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="hello"/>
-			<item value="org.springframework"/>
+			<item value="database"/>
 		</list>
 		<list key="groupId">
-			<item value="org.springframework"/>
+			<item value="woop"/>
 		</list>
 		<list key="artifactId">
-			<item value="woop"/>
+			<item value="database"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,11 +74,11 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-			<item value="0.1.0"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/Coco/Documents/Programming/Workweb/Projet Biennale/ProjetBiennale/TestHello"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
