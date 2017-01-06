@@ -1,0 +1,52 @@
+body{
+	font-family: Gill Sans;
+	background-color: grey;
+
+}
+
+.cinquieme{
+	padding-top: 40px;
+	font-size: 50px;
+	align-items: center;
+}
+
+
+@media (min-width: 935px) {
+.container {
+  padding-top: 40px;
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  margin: auto;
+}
+
+.container2 {
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	margin: 5px;
+}
+
+.premier, .second, .troisième {
+	align-self: center;
+}
+
+.img1, .img2, .img3 {
+	width: 800px;
+	height: 500px;
+}
+
+.second{
+	margin-left: 5px;
+}
+}
+
+@media (max-width: 935px) {
+
+	.img1, .img2, .img3 {
+	width: 0px;
+	height: 0px;
+	}
+	.container {
+	padding-top: 40px;
+	}
+}
+
